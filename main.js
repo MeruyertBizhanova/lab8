@@ -37,7 +37,7 @@ s = 0
 sums.forEach((x) => {s += x}) // computing labs average into var s
 s /= sums.length
 
-let total_score = 0.6 * (s) + 0.4 * (quiz1)
+let total_score = ( 0.6 * (s) + 0.4 * (quiz1) ) * 2.5 // get a percentage score
 
 const results = {
     lab1: lab1, // array of scores for lab1
